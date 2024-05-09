@@ -321,3 +321,35 @@ a:hover:before {
         width:100%;
     }   
 }
+@media (max-width:350px) and (max-height:550px){
+    body{
+        overflow-x: scroll !important;
+    }
+    #main-container{
+        overflow-x: scroll;
+    }
+    #score{
+        overflow-x: scroll !important;
+        height: 200px;
+        position: absolute;
+        top: 0%;
+        overflow: hidden;
+    }
+    #circle{
+        position: relative;
+        top: -15px;
+        background-color: red;
+    }
+    #summary{
+        overflow-x: scroll !important;
+        position: relative;
+        overflow: scroll;
+        top:26%;
+    }
+    #summary > h3 {
+        display:none;
+    }
+    #visual{
+        margin-bottom: 25px;
+    }
+} 
