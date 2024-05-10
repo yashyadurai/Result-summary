@@ -246,9 +246,6 @@ a:hover:before {
     #visual{
         margin-bottom:9px;
     }
-    #circle{
-        background: cyan;
-    }
 }
 @media (max-width:568px) and (orientation: landscape)  {
      body{
@@ -273,7 +270,6 @@ a:hover:before {
         position: absolute;
         top:20%;
         left:5%;
-        background: green;
     }
     #circle > h1{
         scale:1.3;
